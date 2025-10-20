@@ -2,6 +2,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* General */
+.secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 
 /* Header */
 .header {
@@ -19,8 +25,6 @@ body {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
 }
 
 ul {
@@ -32,6 +36,7 @@ ul {
     margin: 0;
 }
 
+
 /* Overview */
 
 
@@ -40,10 +45,4 @@ ul {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
-
-}
-
-.foot_text {
-    color: #F9FAF8;
-    font-size: 18px;
 }
