@@ -38,7 +38,26 @@ ul {
 
 
 /* Overview */
+.overview {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
 
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+img {
+    width: 400px;
+}
 
 /* Footer */
 .footer {
