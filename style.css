@@ -41,7 +41,7 @@ ul {
 .overview {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 h1 {
@@ -57,6 +57,17 @@ button {
 
 img {
     width: 400px;
+}
+
+/* Information */
+.info {
+    display: flex;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 /* Footer */
