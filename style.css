@@ -8,6 +8,18 @@ body {
     font-size: 18px;
 }
 
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
 
 /* Top section (header + overview) */
 .top {
@@ -60,17 +72,6 @@ h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-}
-
-button {
-    background-color: #3882F6;
-    color: #E5E7EB;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: none;
-    border-radius: 5px;
-
 }
 
 .main-image {
@@ -127,6 +128,36 @@ button {
 .author {
     font-weight: 900;
     text-align: right;
+}
+
+/* Signup */
+.signup-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 800px;
+    margin: 80px;
+    padding: 20px;
+}
+
+.b2 {
+    border: solid;
+    border-width: 2px;
+}
+
+.left .logo {
+    margin-bottom: 5px;
+}
+
+.left .secondary {
+    margin-top: 5px;
 }
 
 /* Footer */
