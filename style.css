@@ -9,12 +9,16 @@ body {
 }
 
 
-/* Header */
+/* Top section (header + overview) */
+.top {
+    background-color: #1F2937;
+    display: flex column;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1F2937;
 }
 
 .logo {
@@ -36,12 +40,11 @@ ul {
     margin: 0;
 }
 
-
-/* Overview */
 .overview {
-    background-color: #1F2937;
     display: flex;
     justify-content: space-around;
+    max-width: 1400px;
+    justify-self: center;
 }
 
 h1 {
