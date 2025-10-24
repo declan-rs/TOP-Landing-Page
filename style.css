@@ -58,19 +58,40 @@ button {
     color: #E5E7EB;
 }
 
-img {
+.main-image {
     width: 400px;
 }
 
 /* Information */
 .info {
-    display: flex;
+    display: flex column;
+    justify-items: center;
 }
 
 .info-header {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+}
+
+.images-container {
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+    margin-bottom: 50px;
+}
+
+.image {
+    width: 200px;
+    border: solid #3882F6;
+    border-radius: 10px;
+}
+
+.image-and-description {
+    display: flex column;
+    justify-items: center;
+    text-align: center;
+    font-size: 15px;
 }
 
 /* Footer */
