@@ -94,6 +94,26 @@ button {
     font-size: 15px;
 }
 
+/* Quote */
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 70px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    font-weight: 900;
+    text-align: right;
+}
+
 /* Footer */
 .footer {
     display: flex;
